@@ -1,17 +1,19 @@
 # cooked
 An iOS note-taking app with a focus on restaurant reviews. Write, read, rate, and share reviews to friends.
 
+User Story:	As an [actor] I want [action] so that [achievement].
 Features:
- - Text Editing Box - Shadi
+Shadi:
+ - Text Editing Box
  - Read/Write from File
  - Photo Upload
  - Rating
- ---------
- - Category of Food/Restaurant - Sam
+Sam:
+ - Category of Food/Restaurant
  - Siri implementation
  - Sharing Reviews
  - Location Data for Restaurants
-----------
- - List Reviews by Rating - Jordan
- - Login/User System
+Jordan:
+ - List Reviews by Rating - As a user I want to sort the list of reviews so that I can view by highest to lowest rating.
+ - Login/User System - As a user I want to be ...
  - UX/UI
