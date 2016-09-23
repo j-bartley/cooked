@@ -1,6 +1,10 @@
 # cooked
 An iOS note-taking app with a focus on restaurant reviews. Write, read, rate, and share reviews to friends.
 
+GUI Prototype:
+
+[Cooked iPhone GUI Prototype App](https://pr.to/HWUVE1/)
+
 Features:
 
 Shadi:
