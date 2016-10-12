@@ -1,0 +1,60 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.upload_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* photo */
+.upload_photo {
+	margin: 4px 0px 4px 0px;
+	width: 158px; height: 32px;
+	display: block;
+}
+/* mobilebutton_4 */
+#upload_mobilebutton_4 {
+
+}
+.ui-btn.upload_mobilebutton_4 {
+	margin: 15px 5px 4px 5px;
+}
+/* mobilelabel_5 */
+.upload_mobilelabel_5 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobiletextarea_12 */
+.upload_mobiletextarea_12 {
+	margin: 90px 0px 4px 0px;
+}
+/* mobilebutton_13 */
+#upload_mobilebutton_13 {
+
+}
+.ui-btn.upload_mobilebutton_13 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.upload_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_7 */
+.upload_mobilenavbar_7 {
+
+}
+.upload_mobilenavbar_7 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .upload_mobilenavbar_7 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .upload_mobilenavbar_7 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.upload_mobilenavbar_7 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}
