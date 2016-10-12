@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            startScreen_clone_2
+        </title>
+
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+            </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="startScreen_clone_2" id="startScreen_clone_2"
+        class="type-interior" data-theme="f">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="startScreen_clone_2_mobileheader" class="startScreen_clone_2_mobileheader">
+                <h1 dsid="mobileheader">
+                    Cooked
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="startScreen_clone_2_mobilecontainer" name="mobilecontainer"
+            class="startScreen_clone_2_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="f">
+                <link href="startScreen_clone_2.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="startScreen_clone_2.js">
+                </script>
+                <!-- mobileselectmenu_8 -->
+                <div data-role="fieldcontain" class="startScreen_clone_2_mobileselectmenu_8 ">
+                    <select name="mobileselectmenu_8" id="startScreen_clone_2_mobileselectmenu_8" dsid="mobileselectmenu_8"
+                    data-theme="f" data-role="selectmenu" data-inline="false" data-mini="false"
+                    data-icon="arrow-d" data-iconpos="right" data-native-menu="false" tabindex="5" class="startScreen_clone_2_mobileselectmenu_8">
+                        <option id="startScreen_clone_2_mobileselectmenu_8-0" value="Steakhouse" reRender="mobileselectmenu_8"
+                        dsid="mobileselectmenu_8-0" selected="selected">
+                            Steakhouse
+                        </option>
+                        <option id="startScreen_clone_2_mobileselectmenu_8-1" value="BurgerKing" reRender="mobileselectmenu_8"
+                        dsid="mobileselectmenu_8-1">
+                            BurgerKing
+                        </option>
+                        <option id="startScreen_clone_2_mobileselectmenu_8-2" value="Chees factory " reRender="mobileselectmenu_8"
+                        dsid="mobileselectmenu_8-2">
+                            Chees factory
+                        </option>
+                        <option id="startScreen_clone_2_mobileselectmenu_8-3" value="" reRender="mobileselectmenu_8"
+                        dsid="mobileselectmenu_8-3">
+                            etc.....
+                        </option>
+                    </select>
+                </div>
+                <!-- mobileimage_18 -->
+                <img class="startScreen_clone_2_mobileimage_18" src="../img/prn-outback-steakhouse-logo-0224-1y-1high.png"
+                id="startScreen_clone_2_mobileimage_18" dsid="mobileimage_18" name="mobileimage_18"
+                />
+                <!-- mobileimage_17 -->
+                <img class="startScreen_clone_2_mobileimage_17" src="../img/d-half-pound-burger-dpv.png"
+                id="startScreen_clone_2_mobileimage_17" dsid="mobileimage_17" name="mobileimage_17"
+                />
+                <!-- mobiletextarea_19 -->
+                <div data-role="fieldcontain" class="startScreen_clone_2_mobiletextarea_19 ">
+                    <textarea name="mobiletextarea_19" id="startScreen_clone_2_mobiletextarea_19" tabindex="10"
+                    dsid="mobiletextarea_19" data-theme="f" placeholder="Leave your comments here " class="startScreen_clone_2_mobiletextarea_19">
+</textarea>
+                </div>
+                <!-- mobilebutton_20 --><!--
+                --><a data-role="button" name="mobilebutton_20" dsid="mobilebutton_20" class="startScreen_clone_2_mobilebutton_20"
+                id="startScreen_clone_2_mobilebutton_20" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-inline="true" data-mini="false" data-theme="f"
+                tabindex="11">
+                Submit
+                </a>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="startScreen_clone_2_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="startScreen_clone_2_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>
