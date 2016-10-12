@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            startScreen_clone_1
+        </title>
+ 
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="startScreen_clone_1" id="startScreen_clone_1"
+        class="type-interior" data-theme="f">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="startScreen_clone_1_mobileheader" class="startScreen_clone_1_mobileheader">
+                <h1 dsid="mobileheader">
+                    Cooked
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="startScreen_clone_1_mobilecontainer" name="mobilecontainer"
+            class="startScreen_clone_1_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="f">
+                <link href="startScreen_clone_1.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="startScreen_clone_1.js">
+                </script>
+                <!-- mobileselectmenu_8 -->
+                <div data-role="fieldcontain" class="startScreen_clone_1_mobileselectmenu_8 ">
+                    <select name="mobileselectmenu_8" id="startScreen_clone_1_mobileselectmenu_8" dsid="mobileselectmenu_8"
+                    data-theme="f" data-role="selectmenu" data-inline="false" data-mini="false"
+                    data-icon="arrow-d" data-iconpos="right" data-native-menu="false" tabindex="5" class="startScreen_clone_1_mobileselectmenu_8">
+                        <option id="startScreen_clone_1_mobileselectmenu_8-0" value="Steakhouse" reRender="mobileselectmenu_8"
+                        dsid="mobileselectmenu_8-0" selected="selected">
+                            Steakhouse
+                        </option>
+                        <option id="startScreen_clone_1_mobileselectmenu_8-1" value="BurgerKing" reRender="mobileselectmenu_8"
+                        dsid="mobileselectmenu_8-1">
+                            BurgerKing
+                        </option>
+                        <option id="startScreen_clone_1_mobileselectmenu_8-2" value="Chees factory " reRender="mobileselectmenu_8"
+                        dsid="mobileselectmenu_8-2">
+                            Chees factory
+                        </option>
+                        <option id="startScreen_clone_1_mobileselectmenu_8-3" value="" reRender="mobileselectmenu_8"
+                        dsid="mobileselectmenu_8-3">
+                            etc.....
+                        </option>
+                    </select>
+                </div>
+                <!-- mobileimage_17 -->
+                <img class="startScreen_clone_1_mobileimage_17" src="../img/prn-outback-steakhouse-logo-0224-1y-1high.png"
+                id="startScreen_clone_1_mobileimage_17" dsid="mobileimage_17" name="mobileimage_17"
+                />
+                <!-- mobileimage_18 -->
+                <img class="startScreen_clone_1_mobileimage_18" src="../img/d-half-pound-burger-dpv.png"
+                id="startScreen_clone_1_mobileimage_18" dsid="mobileimage_18" name="mobileimage_18"
+                />
+                <!-- mobiletextarea_12 -->
+                <div data-role="fieldcontain" class="startScreen_clone_1_mobiletextarea_12 ">
+                    <textarea name="mobiletextarea_12" id="startScreen_clone_1_mobiletextarea_12" tabindex="6"
+                    dsid="mobiletextarea_12" data-theme="f" placeholder="" class="startScreen_clone_1_mobiletextarea_12"> User 1,  That's amazing restureant ; it has clean table and testy food. 
+</textarea>
+                </div>
+                <!-- mobiletextarea_14 -->
+                <div data-role="fieldcontain" class="startScreen_clone_1_mobiletextarea_14 ">
+                    <textarea name="mobiletextarea_14" id="startScreen_clone_1_mobiletextarea_14" tabindex="7"
+                    dsid="mobiletextarea_14" data-theme="f" placeholder="" class="startScreen_clone_1_mobiletextarea_14">User 2 , I do not like this food , but clean resturant 
+</textarea>
+                </div>
+                <!-- mobiletextarea_15 -->
+                <div data-role="fieldcontain" class="startScreen_clone_1_mobiletextarea_15 ">
+                    <textarea name="mobiletextarea_15" id="startScreen_clone_1_mobiletextarea_15" tabindex="8"
+                    dsid="mobiletextarea_15" data-theme="f" placeholder="" class="startScreen_clone_1_mobiletextarea_15">etc..... 
+</textarea>
+                </div>
+                <!-- mobilebutton_16 --><!--
+                --><a data-role="button" name="mobilebutton_16" dsid="mobilebutton_16" class="startScreen_clone_1_mobilebutton_16"
+                id="startScreen_clone_1_mobilebutton_16" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="false" data-theme="f" tabindex="9">
+                Leave your comments 
+                </a>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="startScreen_clone_1_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="startScreen_clone_1_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>
