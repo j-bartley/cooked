@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            upload
+        </title>
+
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+     
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="upload" id="upload" class="type-interior"
+        data-theme="f">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="upload_mobileheader" class="upload_mobileheader">
+                <h1 dsid="mobileheader">
+                    Cooked
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="upload_mobilecontainer" name="mobilecontainer" class="upload_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="f">
+                <link href="upload.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="upload.js">
+                </script>
+                <!-- photo -->
+                <img class="upload_photo" src="../libs/io/img/no-image.jpg" id="upload_photo"
+                dsid="photo" name="photo" />
+                <!-- mobilebutton_4 --><!--
+                --><a data-role="button" name="mobilebutton_4" dsid="mobilebutton_4" class="upload_mobilebutton_4"
+                id="upload_mobilebutton_4" data-corners="true" data-icon="arrow-u" data-iconpos="left"
+                x-apple-data-detectors="false" data-mini="false" data-theme="f" tabindex="2">
+                Upload
+                </a><!--
+                --><!-- mobilelabel_5 -->
+                <div name="mobilelabel_5" id="upload_mobilelabel_5" dsid="mobilelabel_5" data-role="_label"
+                class="upload_mobilelabel_5">
+                    Image URL:
+                </div>
+                <!-- mobiletextarea_12 -->
+                <div data-role="fieldcontain" class="upload_mobiletextarea_12 ">
+                    <textarea name="mobiletextarea_12" id="upload_mobiletextarea_12" tabindex="3" dsid="mobiletextarea_12"
+                    data-theme="f" placeholder="Leave your comments here " class="upload_mobiletextarea_12">
+</textarea>
+                </div>
+                <!-- mobilebutton_13 --><!--
+                --><a data-role="button" name="mobilebutton_13" dsid="mobilebutton_13" class="upload_mobilebutton_13"
+                id="upload_mobilebutton_13" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-inline="true" data-mini="false" data-theme="f"
+                tabindex="4">
+                Submit
+                </a>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="upload_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="upload_mobilefooter" data-theme="f">
+                <!-- mobilenavbar_7 -->
+                <div data-role="navbar" id="upload_mobilenavbar_7" name="mobilenavbar_7" dsid="mobilenavbar_7"
+                class="upload_mobilenavbar_7" data-theme="f" style="position: relative;">
+                    <ul>
+                        <!-- mobilenavbaritem_8 -->
+                        <li>
+                            <a data-theme="f" data-icon="camera" id="upload_mobilenavbaritem_8" dsid="mobilenavbaritem_8"
+                            name="mobilenavbaritem_8">
+                            Camera
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
